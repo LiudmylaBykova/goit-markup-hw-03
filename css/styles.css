@@ -5,7 +5,7 @@
     --c-text: #434455;
     --c-background-light: #FFF;
     --c-background-middle: #F4F4FD;
-    --c-light: #F4F4FD;
+    --c-accent: #E7E9FC;
 }
 
 body {
@@ -49,6 +49,11 @@ img {
 }
 
 /*Header styles*/
+.header {
+    border-bottom: 1px solid var(--c-accent);
+    background: var(--c-background-light);
+}
+
 .header-inner {
     align-items: center;
     display: flex;
@@ -132,20 +137,33 @@ img {
     color: var(--c-brand-pres);
 }
 
+/*END Header styles*/
+
+/*Hero section styles*/
 .hero-section {
     background-color: var(--c-master);
+    padding: 188px auto 292px;
 }
 
 .hero-title {
+    max-width: 496px;
+    margin: 0 auto;
     color: var(--c-background-light);
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    margin-bottom: 48px;
 }
 
 .hero-button {
+    display: block;
+    border-radius: 4px;
+    border: none;
+    margin: 0 auto;
+    width: 169px;
+    height: 56px;
     color: var(--c-background-light);
     font-family: inherit;
     font-size: 16px;
@@ -169,6 +187,9 @@ img {
     overflow: hidden;
 }
 
+/*END Hero section styles*/
+
+/*Advantages section*/
 .advantages-title {
     color: var(--c-master);
     font-size: 20px;
@@ -254,7 +275,7 @@ img {
 }
 
 .footer-logo-right {
-    color: var(--c-light);
+    color: var(--c-background-middle);
     font-family: Raleway, sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -264,7 +285,7 @@ img {
 }
 
 .footer-text {
-    color: var(--c-light);
+    color: var(--c-background-middle);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
