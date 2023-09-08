@@ -190,12 +190,18 @@ img {
 /*END Hero section styles*/
 
 /*Advantages section*/
+.advantages-list {
+    display: flex;
+    gap: 24px;
+}
+
 .advantages-title {
     color: var(--c-master);
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .advantages-text {
@@ -203,6 +209,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+/*END Advantages section styles*/
+
+/*Team section styles*/
 
 .team-section {
     background-color: var(--c-background-middle);
@@ -216,10 +226,24 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .team-list {
-    background-color: var(--c-background-light);
+    display: flex;
+    gap: 24px;
+}
+
+.team-item {
+    flex-basis: calc(100%-72px/4);
+    border-radius: 0 0 4px 4px;
+}
+
+.person {
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    overflow: hidden;
 }
 
 .team-name {
@@ -228,12 +252,18 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .team-position {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-card-content {
+    margin: 32px 0;
 }
 
 .portfolio-title {
