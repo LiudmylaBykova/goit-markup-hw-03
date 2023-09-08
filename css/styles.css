@@ -43,7 +43,7 @@ img {
 }
 
 .container {
-    max-width: 1128px;
+    max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -266,7 +266,12 @@ img {
     margin: 32px 0;
 }
 
+/*END Our team section styles*/
+
+/*Portfolio section styles*/
+
 .portfolio-title {
+    margin-bottom: 72px;
     color: var(--c-master);
     font-size: 36px;
     font-weight: 700;
@@ -274,6 +279,27 @@ img {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.portfolio-item {
+    flex-basis: calc(100%-48px/3);
+}
+
+.portfolio-card {
+    border: 1px solid var(--c-accent);
+    background: var(--c-background-light);
+    border-top: 0;
+}
+
+.portfolio-card-content {
+    margin: 32px 0;
+    padding: 0px 16px;
 }
 
 .portfolio-name {
