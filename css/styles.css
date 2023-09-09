@@ -78,6 +78,10 @@ img {
     gap: 40px;
 }
 
+.logo {
+    margin-right: 76px;
+}
+
 .logo-left {
     align-items: center;
     display: flex;
@@ -100,7 +104,6 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    margin-right: 76px;
 }
 
 .nav-list {
