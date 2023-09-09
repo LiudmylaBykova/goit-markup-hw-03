@@ -142,7 +142,7 @@ img {
 /*Hero section styles*/
 .hero-section {
     background-color: var(--c-master);
-    padding: 188px auto;
+    padding: 188px 0;
 }
 
 .hero-title {
