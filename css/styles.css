@@ -95,6 +95,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .nav-list {
@@ -122,6 +123,11 @@ img {
 
 .address-list {
     font-style: normal;
+}
+
+.header-address {
+    display: flex;
+    gap: 40px;
 }
 
 .address-type {
@@ -248,14 +254,15 @@ img {
 .team-item {
     width: calc((100%-72px)/4);
     border-radius: 0 0 4px 4px;
-}
-
-.person {
     border-radius: 0px 0px 4px 4px;
     background: var(--WHITE, #FFF);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
     overflow: hidden;
 }
+
+/* .person {
+    
+} */
 
 .team-name {
     color: var(--c-master);
