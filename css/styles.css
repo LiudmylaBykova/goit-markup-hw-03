@@ -66,7 +66,7 @@ img {
     display: flex;
     gap: 24px;
     flex-grow: 1;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 
 .address-list {
@@ -76,10 +76,6 @@ img {
 .header-address {
     display: flex;
     gap: 40px;
-}
-
-.logo {
-    margin-right: 76px;
 }
 
 .logo-left {
@@ -104,6 +100,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .nav-list {
@@ -121,6 +118,8 @@ img {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-link:hover,
