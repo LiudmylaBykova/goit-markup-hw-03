@@ -246,7 +246,7 @@ img {
 }
 
 .team-item {
-    flex-basis: calc((100%-72px)/4);
+    width: calc((100%-72px)/4);
     border-radius: 0 0 4px 4px;
 }
 
@@ -300,18 +300,17 @@ img {
 }
 
 .portfolio-item {
-    flex-basis: calc((100%-48px)/3);
+    width: calc((100%-48px)/3);
 }
 
 .portfolio-card {
     border: 1px solid var(--c-accent);
     background: var(--c-background-light);
     border-top: none;
-}
-
-.portfolio-card-content {
     padding: 32px 16px;
 }
+
+.portfolio-card-content {}
 
 .portfolio-name {
     color: var(--c-master);
@@ -319,6 +318,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
