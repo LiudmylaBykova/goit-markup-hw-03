@@ -59,6 +59,7 @@ img {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    padding: 24px 0;
 }
 
 .header-nav {
@@ -318,9 +319,7 @@ img {
     padding: 32px 16px;
 }
 
-.portfolio-card-content {
-    margin-bottom: 8px;
-}
+.portfolio-card-content {}
 
 .portfolio-name {
     color: var(--c-master);
@@ -328,6 +327,7 @@ img {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
