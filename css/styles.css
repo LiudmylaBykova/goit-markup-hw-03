@@ -324,8 +324,6 @@ img {
     padding: 32px 16px;
 }
 
-.portfolio-card-content {}
-
 .portfolio-name {
     color: var(--c-master);
     font-size: 20px;
