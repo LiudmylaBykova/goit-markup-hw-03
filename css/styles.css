@@ -64,13 +64,6 @@ img {
 .header-nav {
     align-items: center;
     display: flex;
-    gap: 24px;
-    flex-grow: 1;
-}
-
-.address-list {
-    margin-right: 76px;
-    padding: 24px 0;
 }
 
 .header-address {
@@ -369,7 +362,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     display: inline-block;
-    margin-bottom: 16px;
 }
 
 .footer-text {
